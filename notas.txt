@@ -1,0 +1,12 @@
+ENDPOINTS o routas que el cliente solicita
+Es el crud basico
+get = obtener datos (select * from table)
+post = insertar datos (insert into table(campos) values (nuevos campos))
+put = actulizar datos o dato (update table where campoId = valorIdExistente , set campo = nuevo valor )
+delete = eliminar dato o datos (delete from table where campoId =  valorIdExistente)
+
+Dependencias instaladas en este proyecto
+npm i mysql2
+npm i nodemon -D
+npm i express 
+npm i dotenv //Esto nos permite crear varaibles de entorno asi como hizo oswaldo en el proyecto
